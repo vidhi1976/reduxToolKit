@@ -12,7 +12,7 @@ const AddToDo = () => {
     }
 
   return (
-    <form onSubmit={addTodoHandler} className="space-x-3 mt-12">
+    <form onSubmit={addTodoHandler} className="space-x-3 mt-12 ml-12">
       <input
         type="text"
         className="bg-gray-800 rounded border 
